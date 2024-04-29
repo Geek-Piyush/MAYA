@@ -1,0 +1,26 @@
+.Navigation ul li{
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 20%;
+    background-color: plum;
+
+}
+.Navigation ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+
+}
+.Navigation{
+    background-color: blue;
+    margin: 0%;
+    margin-right: 5%;
+}
+
+.Navigation ul li button{
+    background-color: blue;
+    border-color: white;
+}
