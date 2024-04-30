@@ -1,0 +1,112 @@
+.nav{
+    border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #000040, #FFFFFF, #000040) 1;
+    background-color: #004AAD;
+    position: relative;
+    top:-150px;
+    right: 70px;
+}
+._logo{
+    position : relative;
+    left:80px;
+    top:135px;
+}
+._logo span{
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 40px;
+    position: relative;
+    bottom: 30px;
+    right:10px;
+}
+.logo{
+    height:100px;
+    
+}
+.navend{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 2rem;
+    left: 2rem;
+}
+
+#s_icon{
+    height: 30px ;
+    width: 30px;
+    position :relative;
+    top:70px;
+    left: 330px;
+    z-index: 2;
+}
+.search :hover{
+    cursor: text;
+}
+#s_icon :hover{
+    cursor: pointer;
+}
+.s_box{
+    position: relative;
+    top:60px;
+    left: 375px;
+    border: solid 2px #000040;
+    border-radius: 30px;
+    height: 40px ;
+    width: 400px;
+    font-size: large;
+}
+
+.nav .Buttons{
+    display: flex;
+    flex-direction: row;
+}
+.b1{
+    height: 30px;
+    width: 80px;
+    font-size: 15px;
+}
+.b2{
+    height: 30px;
+    width: 80px;
+    font-size: 15px;
+}
+.b3{
+    height: 30px;
+    width: 80px;
+    font-size: 15px;
+}
+.b4{
+    height: 30px;
+    width: 96px;
+    font-size: 15px;
+}
+.nav .Buttons button{
+    
+    border-radius: 10px;
+    margin: 8px;
+    margin-bottom: 0px;
+    padding :2px;
+    padding-left : 10px;
+    padding-right : 10px;
+    border-color:white;
+    background-color:#11009E;
+    color:white;
+    position: relative;
+    right: 10px;
+    top:25px;
+}
+
+
+.nav .profile {
+    border: solid 5px #000040;
+    background-color: #000040;
+    border-radius: 3rem;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 8px;
+}
+
