@@ -1,0 +1,295 @@
+
+/* Navigation Bar */
+
+.navi{
+    border-left: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #000040, #FFFFFF, #000040) 1;
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    top: 0; /* Stay at the top */
+    left: 0;
+    width: 200px; /* Set the width of the sidebar */
+    height: 100%; /* Full-height: stretch from top to bottom of the page */
+    background-color: #100077; /* Sidebar color */
+    padding: 20px 10px; /* Padding inside the sidebar */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.navi span{
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 40px;
+    
+    
+    position: relative;
+    top: 10px;
+    left:10px;
+}
+.search{
+    border: solid 4px black;
+    width:170px;
+    height:40px;
+    border-radius: 2rem;
+    background-color: white;
+}
+.search input{
+    border:none !important;
+    height:30px;
+    position: relative;
+    top:5px;
+    left: 20px;
+    width:100px;
+}
+.search input:focus {
+    outline: none;
+}
+.line{
+    border-left: 3px solid black;
+    height:45px;
+    position: relative;
+    bottom:35px;
+    left:120px;
+}
+.icon_s{
+    position: relative;
+    bottom:75px;
+    left:125px;
+    height: 36px;
+    width:36px
+}
+.Buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Buttons a{
+    text-decoration: none;
+    color: white;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+}
+.Buttons div img{
+    height: 25px;
+}
+
+
+.logo{
+    height: 200px;
+    width: 180px ;
+}
+
+#t1{
+    position: relative;
+    left:15px;
+
+}
+#t2{
+    position: relative;
+    left:28px;
+}
+
+#t3{
+    position: relative;
+    left:17px;
+
+}
+
+#t4{
+    position: relative;
+    left:26px;
+}
+.b1{
+    position: relative;
+    left:10px;
+}
+
+.b2{
+    position: relative;
+    left:15px;
+    top:2px;
+}
+
+.b3{
+    position: relative;
+    left:10px;
+    top:2px;
+}
+
+.b4{
+    position: relative;
+    left:15px;
+}
+
+/* ***************************************************************************** */
+
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    
+    width: 280px;
+    height:360px;
+    border:solid 1px black;
+    border-radius: 2rem;
+    background-color: #466b8d;
+    gap: 10px;
+
+    position: absolute;
+    left:970px;
+    top: 10px;
+}
+
+.container1 h3{
+    font-family: "Titan One", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: 0px;
+}
+
+.emoji{
+    position: relative;
+    border: 2px solid black;
+    border-radius: 4rem;
+    left: 10px;
+    width: 44px;
+    height: 44px;
+}
+
+.communities div a{
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    font-size: 24px;
+    color: white;
+    text-decoration: none !important;
+
+    position: relative;
+
+    
+}
+.communities{
+    position: relative;
+    
+    right:20px;
+    display: flex;
+    flex-direction: row;
+}
+.communities div{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left:20px;
+    bottom: 2px;
+
+}
+
+.communities div span{
+    font-family: "Titan One", sans-serif;
+    font-weight: 50;
+    font-style: normal;
+    font-size: 10px;
+}
+/* Tool Box */
+.tool{
+    width: 400px;
+    height: 210px;
+    background-color: black;
+    position: absolute;
+
+    left:850px;
+    top: 400px;
+
+    border-radius: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tool div a span{
+    color: white;
+}
+
+.tool div a{
+    text-decoration: none;
+}
+
+.tool div{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.circle{
+    width:30px;
+    height: 30px;
+    border-radius: 10rem;
+    background-color: #FFFFFF;
+    position: relative;
+    right: 40px;
+}
+.tool div img{
+    width: 20px;
+    height: 20px;
+}
+.tool div span{
+    font-family: "Titan One", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 25px;
+}
+#c1{
+    position: relative;
+    right: 10px;
+}
+#c2{
+    position: relative;
+    right:36px;
+}
+
+#c3{
+    position: relative;
+    right:72px;
+}
+
+#s1{
+    position: relative;
+    right: -5px;
+}
+#s2{
+    position: relative;
+    right:21px;
+}
+
+#s3{
+    position: relative;
+    right:55px;
+}
+
+
+#i1{
+    position: relative;
+    left:20px;
+}
+#i2{
+    position: relative;
+    left:45px;
+}
+#i3{
+    position: relative;
+    left: 80px;
+}

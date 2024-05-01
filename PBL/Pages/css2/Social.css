@@ -1,0 +1,125 @@
+.navi{
+    border-left: 2px;
+    
+    border-style: solid;
+    border-image: linear-gradient(to right, #000040, #FFFFFF, #000040) 1;
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    top: 0; /* Stay at the top */
+    left: 0;
+    width: 200px; /* Set the width of the sidebar */
+    height: 100%; /* Full-height: stretch from top to bottom of the page */
+    background-color: #190788; /* Sidebar color */
+    padding: 20px 10px; /* Padding inside the sidebar */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.navi span{
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 40px;
+    
+    
+    position: relative;
+    top: 10px;
+    left:10px;
+}
+.search{
+    border: solid 4px black;
+    width:170px;
+    height:40px;
+    border-radius: 2rem;
+    background-color: white;
+}
+.search input{
+    border:none !important;
+    height:30px;
+    position: relative;
+    top:5px;
+    left: 20px;
+    width:100px;
+}
+.search input:focus {
+    outline: none;
+}
+.line{
+    border-left: 3px solid black;
+    height:45px;
+    position: relative;
+    bottom:35px;
+    left:120px;
+}
+.icon_s{
+    position: relative;
+    bottom:75px;
+    left:125px;
+    height: 36px;
+    width:36px
+}
+.Buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Buttons a{
+    text-decoration: none;
+    color: white;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+}
+.Buttons div img{
+    height: 25px;
+}
+
+
+.logo{
+    height: 200px;
+    width: 180px ;
+}
+
+#t1{
+    position: relative;
+    left:15px;
+
+}
+#t2{
+    position: relative;
+    left:28px;
+}
+
+#t3{
+    position: relative;
+    left:17px;
+
+}
+
+#t4{
+    position: relative;
+    left:26px;
+}
+.b1{
+    position: relative;
+    left:10px;
+}
+
+.b2{
+    position: relative;
+    left:15px;
+    top:2px;
+}
+
+.b3{
+    position: relative;
+    left:10px;
+    top:2px;
+}
+
+.b4{
+    position: relative;
+    left:15px;
+}
