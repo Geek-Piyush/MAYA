@@ -131,3 +131,105 @@
 /* ********************************************************************************************* */
 
 /* ********************************************************************************************* */
+/* footer */
+
+body {
+    font-family: 'Viga', sans-serif; 
+    font-size: 20px;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.footer-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.foot {
+    background-color: #004AAD;
+    padding: 20px;
+    color: #fff; 
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex; 
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 70px; 
+    padding-left:20px;
+}
+
+.section {
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+
+.section h3 {
+    font-size: 24px; /* Updated font size */
+    margin-bottom: 10px;
+}
+
+.section a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.Subscription {
+    background-color: #CEB00F; 
+    padding: 10px;
+    margin-top : 40px;
+    border-radius: 5px;
+    height: fit-content;
+    align-self: flex-start;
+}
+
+.Subscription h2 {
+    background-color: #004AAD;
+    padding-top: 80px;
+    padding-right: 60px;
+    padding-left: 60px;
+    font-size: 24px; /* Updated font size */
+    margin-bottom: 10px;
+}
+
+.Subscription form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Subscription input[type="email"] {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #B0ADAD;
+}
+
+.Subscription input[type="submit"] {
+    background-color: #fff;
+    color: #004AAD;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 24px; /* Updated font size */
+    background-color: #004AAD;
+}
