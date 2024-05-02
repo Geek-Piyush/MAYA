@@ -8,6 +8,46 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+
+    <style>
+        .container {
+            width: 100%;
+            overflow-x: hidden;
+            /* Hide the horizontal scrollbar */
+            margin-top: 20px;
+    
+        }
+    
+        .cards-container {
+            width: fit-content;
+            /* Adjust the width to fit the cards */
+            overflow: hidden;
+            /* Hide overflowed cards */
+        }
+    
+        .card-row {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+            transition: transform 0.1s ease;
+            /* Add transition for smooth sliding effect */
+        }
+    
+        .card {
+            width: 250px;
+            /* Increase the width of the card */
+            height: 175px;
+            border: 3px solid darkblue;
+            border-radius: 10px;
+            background-color: darkbluekd
+        }
+    
+        /* Additional styling for scrollbar */
+        .container::-webkit-scrollbar {
+            display: none;
+            /* Hide scrollbar on WebKit-based browsers */
+        }
+    </style>
 </head>
 <body>
     <!-- -------------------------------- Navigation Bar -------------------------------- -->
@@ -36,30 +76,128 @@
         
     </div>
     <!-- -------------------------------- Test -------------------------------- -->
-    <div class="Test">
-        <span>Take A Test</span>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-    </div>
-    <!-- -------------------------------- Trending -------------------------------- -->
-    <div class="Trending">
-        <span>What's Trending</span>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-    </div>
-    <!-- -------------------------------- Progress -------------------------------- -->
-    <div class="Progress">
-        <img src="" alt="" class="chart">
-        <img src="" alt="" class="chart">
-        <div class="profileBox">
+    <div class="temp3">
+        <div class="container" onmousemove="slideRow(event, this)">
+            <h2>Take Test ?</h2>
+            <div class="cards-container">
+                <div class="card-row">
+                    <div class="card">
+                        <img src="./images/a1.svg" width="100%" height="100%">
+                    </div>
+                    <div class="card">
+                        <div class="card">
+                            <img src="./images/a2.svg" width="100%" height="100%">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card">
+                            <img src="./images/i.jpeg" width="100%" height="90%"
+                                style="border-radius: 25px; margin-top: 5px; margin-bottom: 5px;">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card">
+                            <img src="./images/a4.svg" width="100%" height="100%">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card">
+                            <img src="./images/i2.jpeg" width="100%" height="90%"
+                                style="border-radius: 25px; margin-top: 5px; margin-bottom: 5px;">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card">
+                            <img src="./images/i3.jpeg" width="100%" height="90%"
+                                style="border-radius: 25px; margin-top: 5px; margin-bottom: 5px;">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card">
+                            <img src="./images/i4.jpeg" width="100%" height="90%"
+                                style="border-radius: 25px; margin-top: 5px; margin-bottom: 5px;">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card">
+                            <img src="./images/i5.jpeg" width="100%" height="90%"
+                                style="border-radius: 25px; margin-top: 5px; margin-bottom: 5px;">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card">
+                            <img src="./images/i6.jpeg" width="100%" height="90%"
+                                style="border-radius: 25px; margin-top: 5px; margin-bottom: 5px;">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card">
+                            <img src="./images/i7.jpeg" width="100%" height="90%"
+                                style="border-radius: 25px; margin-top: 5px; margin-bottom: 5px;">
+                        </div>
+                    </div> <!-- New card -->
+                </div>
+            </div>
+<!-- ---------------------------------- Whats treding ---------------------------- -->
+            <div class="container" onmousemove="slideRow(event, this)">
+                <h2>What's Trend ?</h2>
+                <div class="cards-container">
+                    <div class="card-row">
+                        <div class="card">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/eAK14VoY7C0?si=yd7nPt-ib7kvEfBB"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="card">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/td0PSS3lCQ4?si=nWZX2aHj9o6oqWot"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="card">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/gy1iH_Gxn0Q?si=JQxa3j66blCSeMf_"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="card">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Nbv_K9gxMeU?si=J4Jln4jCm8vv6E6v"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="card">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/AZZIxyY23IA?si=kMrx93S9j6JARvsL"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="card"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/f6CILJA110Y?si=GbThI-8Kd88AUjd2"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                        <div class="card">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Kn4dK_kYUEo?si=Ymabh1yIZ1o8tbZ8"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="card"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/jPDKi-i618U?si=eglWs3rcOQ2XS6PK"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                        <div class="card"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/XOU2ubWkoPw?si=2jPyEiPkfz5hasqa"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                        <div class="card"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/NlY4yCsGKXU?si=i9Ba0w10KwYqBxqz"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div> <!-- New card -->
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!-- -------------------------------- Footer -------------------------------- -->
@@ -105,6 +243,8 @@
 
         
         <!-- Footer container with absolute positioning -->
+       
+        
         <div class="footer-container">
             <!-- Footer -->
             <div class="foot">
@@ -151,12 +291,32 @@
                 </div>
             </div>
         </div>
-    
+        
         <!-- Footer copyright -->
         <footer>&copy; 2024 M.A.Y.A. All Rights Reserved.</footer>
         
+    
 
-    </div>
+    <script>
+        function slideRow(event, container) {
+            const cardRow = container.querySelector('.card-row');
+            const cardsContainer = container.querySelector('.cards-container');
+            const cardWidth = container.querySelector('.card').offsetWidth;
+            const containerWidth = container.offsetWidth;
+            const cardsWidth = cardRow.scrollWidth; // Calculate total width of all cards including gaps
+            const mouseX = event.clientX - container.offsetLeft;
 
+            const maxOffset = cardsWidth - containerWidth;
+
+            if (maxOffset > 0) {
+                const offset = Math.min((mouseX / containerWidth) * maxOffset, maxOffset);
+                cardRow.style.transform = `translateX(-${offset}px)`;
+            } else {
+                cardRow.style.transform = 'translateX(0)';
+            }
+        }
+    </script>
 </body>
+
+
 </html>
