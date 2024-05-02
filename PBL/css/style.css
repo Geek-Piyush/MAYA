@@ -13,6 +13,7 @@
     position : relative;
     left:80px;
     top:135px;
+    width: 500px;
 }
 ._logo span{
     font-family: "Titan One", sans-serif;
@@ -23,6 +24,7 @@
     position: relative;
     bottom: 30px;
     right:10px;
+    
 }
 .logo{
     height:100px;
@@ -128,7 +130,6 @@
 
 /* Take test */
 
-/* ********************************************************************************************* */
 .container {
       width: 100%;
       overflow-x: hidden; /* Hide the horizontal scrollbar */
@@ -146,6 +147,7 @@
       gap: 20px;
       padding: 20px;
       transition: transform 0.1s ease; /* Add transition for smooth sliding effect */
+      width: 90%;
     }
 
     .card {
