@@ -122,52 +122,8 @@
     position: relative;
     top: 8px;
 }
-
 /* ********************************************************************************************** */
-
-
-/* Take test */
-
-/* ********************************************************************************************* */
-.container {
-      width: 100%;
-      overflow-x: hidden; /* Hide the horizontal scrollbar */
-      margin-top: 20px;
-      
-    }
-
-    .cards-container {
-      width: fit-content; /* Adjust the width to fit the cards */
-      overflow: hidden; /* Hide overflowed cards */
-    }
-
-    .card-row {
-      display: flex;
-      gap: 20px;
-      padding: 20px;
-      transition: transform 0.1s ease; /* Add transition for smooth sliding effect */
-    }
-
-    .card {
-      width: 250px; /* Increase the width of the card */
-      height: 175px;
-       border: 3px solid darkblue;
-      border-radius: 10px;
-      background-color: darkblue
-    }
-
-    /* Additional styling for scrollbar */
-    .container::-webkit-scrollbar {
-      display: none; /* Hide scrollbar on WebKit-based browsers */
-    }
-
-    .temp3
-        {
-            position: relative;
-            bottom: 110px;
-        }
-/* ********************************************************************************************* */
-/* footer */
+/* Footer */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 body{

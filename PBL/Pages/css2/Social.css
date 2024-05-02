@@ -123,3 +123,245 @@
     position: relative;
     left:15px;
 }
+/* Popular Communities */
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    
+    width: 280px;
+    height:380px;
+    border:solid 1px black;
+    border-radius: 2rem;
+    background-color: #466b8d;
+    gap: 10px;
+
+    position: absolute;
+    left:980px;
+    top: 10px;
+}
+
+.container1 h3{
+    font-family: "Titan One", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: 0px;
+}
+
+.emoji{
+    position: relative;
+    border: 2px solid black;
+    border-radius: 4rem;
+    left: 10px;
+    width: 44px;
+    height: 44px;
+}
+
+.communities div a{
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    font-size: 24px;
+    color: white;
+    text-decoration: none !important;
+
+    position: relative;
+
+    
+}
+.communities{
+    position: relative;
+    
+    right:20px;
+    display: flex;
+    flex-direction: row;
+}
+.communities div{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left:20px;
+    bottom: 2px;
+
+}
+
+.communities div span{
+    font-family: "Titan One", sans-serif;
+    font-weight: 50;
+    font-style: normal;
+    font-size: 10px;
+}
+/* ******************************************************** */
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    
+    width: 280px;
+    height:380px;
+    border:solid 1px black;
+    border-radius: 2rem;
+    background-color: #192a7ae7;
+    gap: 10px;
+
+    position: absolute;
+    left:980px;
+    top: 400px;
+}
+
+.container2 h3{
+    font-family: "Titan One", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: 0px;
+}
+/* ******************************************************** */
+/* Inspire */
+.container {
+      width: 59%;
+      overflow-x: hidden; /* Hide the horizontal scrollbar */
+      margin-top: 20px;
+
+      position: absolute;
+      left: 220px;
+      
+      
+    }
+
+    .cards-container {
+      width: fit-content; /* Adjust the width to fit the cards */
+      overflow: hidden; /* Hide overflowed cards */
+      
+    }
+
+    .card-row {
+      display: flex;
+      gap: 20px;
+      padding: 20px;
+      transition: transform 0.1s ease; /* Add transition for smooth sliding effect */
+    }
+
+    .card {
+        width: 250px; /* Increase the width of the card */
+        height: 175px;
+        border: 3px solid darkblue;
+        border-radius: 10px;
+        background-color: darkblue
+    }
+
+    /* Additional styling for scrollbar */
+    .container::-webkit-scrollbar {
+      display: none; /* Hide scrollbar on WebKit-based browsers */
+    }
+
+    .temp3
+        {
+            position: relative;
+            bottom: 110px;
+        }
+
+/* ******************************************************** */
+/* Social */
+
+.Social_Container{
+    width: 60%;
+    position: absolute;
+    left: 220px;
+    top: 320px;
+}
+
+.Post img{
+    border: 2px solid black;
+    border-radius: 4rem;
+    width: 44px;
+    height: 44px;
+}
+
+.Post{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    padding-top: 20px;
+    width: 500px;
+    border: solid 2px #000040;
+    border-radius: 2rem;
+    height: 150px;
+    background-color: #4225ff51;
+
+}
+
+.Post div{
+    display: flex;
+    flex-direction: row;
+}
+
+.Post div div{
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+}
+
+.Post h4{
+    font-family: "Titan One", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.717);
+
+    position: relative;
+    bottom: 25px;
+    left:10px;
+}
+
+.Post h6{
+    position: relative;
+    bottom: 75px;
+    left:10px;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 150;
+    font-style: normal;
+    font-size: small;
+    color: #000000;
+}
+
+.content{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: rgba(42, 66, 67, 0.808);
+    font-size: 15px;
+
+    position: relative;
+    bottom: 70px;
+    height: 50px;
+    width: 460px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 15px;
+}
+
+#BoxX{
+    position: relative;
+    left: 80px;
+    top: 10px;
+}
+
+h2{
+    font-family: "Titan One", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 30px;
+}

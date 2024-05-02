@@ -134,6 +134,7 @@
     left: 300px;
     top:30px;
     width: 450px;
+    margin-bottom: 20px;
 }
 
 .pht{
@@ -259,7 +260,7 @@
     justify-content: flex-start;
     
     width: 280px;
-    height:360px;
+    height:380px;
     border:solid 1px black;
     border-radius: 2rem;
     background-color: #466b8d;
@@ -333,7 +334,7 @@
     position: absolute;
 
     left:500px;
-    top: 400px;
+    top: 420px;
 
     border-radius: 2rem;
 
@@ -435,6 +436,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    margin-bottom: 200px;
 }
 .post{
     width: 360px;
