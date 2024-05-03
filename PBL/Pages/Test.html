@@ -1,17 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>M.A.Y.A./Test</title>
     <link rel="stylesheet" href="./css2/test.css">
+    <title>Index</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+
+    <style>
+        .container {
+            width: 100%;
+            overflow-x: hidden;
+            /* Hide the horizontal scrollbar */
+            margin-top: 20px;
+
+        }
+
+        .cards-container {
+            width: fit-content;
+            /* Adjust the width to fit the cards */
+            overflow: hidden;
+            /* Hide overflowed cards */
+        }
+
+        .card-row {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+            transition: transform 0.1s ease;
+            /* Add transition for smooth sliding effect */
+        }
+
+        .card {
+            width: 250px;
+            /* Increase the width of the card */
+            height: 175px;
+            border: 3px solid darkblue;
+            border-radius: 10px;
+            background-color: darkbluekd
+        }
+
+        /* Additional styling for scrollbar */
+        .container::-webkit-scrollbar {
+            display: none;
+            /* Hide scrollbar on WebKit-based browsers */
+        }
+    </style>
 </head>
+
 <body>
     <!-- -------------------------------- Navigation Bar -------------------------------- -->
     <div class="nav">
@@ -19,14 +62,14 @@
             <img src="../images/20240430_181955.png" alt="" class="logo">
             <span>M.A.Y.A.</span>
         </div>
-    
-    
+
+
         <<div class="search">
             <input type="text" placeholder="Search..">
             <div class="line"></div>
             <img src="../images/icons8-search-100.png" alt="" class="icon_s">
-        </div>
-    
+    </div>
+
     <div class="navend">
         <div class="Buttons">
             <a href="../index.html"><button class="b1">Home</button></a>
@@ -36,9 +79,174 @@
         </div>
         <a href="../Pages/Profile.html"><img src="../images/profile.jpg" alt="" class="profile"></a>
     </div>
+
+    </div>
     <!-- -------------------------------- Test -------------------------------- -->
+    <div class="temp3">
+        <div class="container" onmousemove="slideRow(event, this)">
+            <h2>Quick Test</h2>
+            <div class="cards-container">
+                <div class="card-row">
+                    <div class="card">
+                        <div class="card">
+                            <img src="../images/a1.svg" width="100%" height="100%">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card">
+                            <img src="../images/a2.svg" width="100%" height="100%">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card">
+                            <img src="../images/i.jpeg" width="100%" height="90%"
+                                style="border-radius: 25px; margin-top: 5px; margin-bottom: 5px;">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card">
+                            <img src="../images/i7.jpeg" width="100%" height="90%"
+                                style="border-radius: 25px; margin-top: 5px; margin-bottom: 5px;">
+                        </div>
+                    </div> <!-- New card -->
+                </div>
+            </div>
+        
+    </div>
+
+    <div class="temp4">
+        <div class="container" onmousemove="slideRow(event, this)">
+            <h2>Weekly Test</h2>
+            <div class="cards-container">
+                <div class="card-row">
+                    <div class="card">
+                        <div class="card">
+                            <img src="../images/a1.svg" width="100%" height="100%">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card">
+                            <img src="../images/a2.svg" width="100%" height="100%">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card">
+                            <img src="../images/i.jpeg" width="100%" height="90%"
+                                style="border-radius: 25px; margin-top: 5px; margin-bottom: 5px;">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card">
+                            <img src="../images/a4.svg" width="100%" height="100%">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card">
+                            <img src="../images/i2.jpeg" width="100%" height="90%"
+                                style="border-radius: 25px; margin-top: 5px; margin-bottom: 5px;">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card">
+                            <img src="../images/i3.jpeg" width="100%" height="90%"
+                                style="border-radius: 25px; margin-top: 5px; margin-bottom: 5px;">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card">
+                            <img src="../images/i4.jpeg" width="100%" height="90%"
+                                style="border-radius: 25px; margin-top: 5px; margin-bottom: 5px;">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card">
+                            <img src="../images/i5.jpeg" width="100%" height="90%"
+                                style="border-radius: 25px; margin-top: 5px; margin-bottom: 5px;">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card">
+                            <img src="../images/i6.jpeg" width="100%" height="90%"
+                                style="border-radius: 25px; margin-top: 5px; margin-bottom: 5px;">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card">
+                            <img src="../images/i7.jpeg" width="100%" height="90%"
+                                style="border-radius: 25px; margin-top: 5px; margin-bottom: 5px;">
+                        </div>
+                    </div> <!-- New card -->
+                </div>
+            </div>
+    
+        </div>
+    <!-- -------------------------------- Footer -------------------------------- -->
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>MAYA</h4>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Service</h4>
+                    <ul>
+                        <li><a href="../Pages/contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Activity</h4>
+                    <ul>
+                        <li><a href="#">Affiliate</a></li>
+                        <li><a href="#">Influencers</a></li>
+                        <li><a href="#">Co-Branding</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script>
+        function slideRow(event, container) {
+            const cardRow = container.querySelector('.card-row');
+            const cardsContainer = container.querySelector('.cards-container');
+            const cardWidth = container.querySelector('.card').offsetWidth;
+            const containerWidth = container.offsetWidth;
+            const cardsWidth = cardRow.scrollWidth; // Calculate total width of all cards including gaps
+            const mouseX = event.clientX - container.offsetLeft;
+
+            const maxOffset = cardsWidth - containerWidth;
+
+            if (maxOffset > 0) {
+                const offset = Math.min((mouseX / containerWidth) * maxOffset, maxOffset);
+                cardRow.style.transform = `translateX(-${offset}px)`;
+            } else {
+                cardRow.style.transform = 'translateX(0)';
+            }
+        }
+
+
+
+    </script>
 </body>
+
+
 </html>
-
-<!-- -------------------------------- Footer -------------------------------- -->
-
