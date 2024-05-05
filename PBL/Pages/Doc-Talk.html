@@ -12,39 +12,269 @@
 
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
 
+
+        /* Reset some default styles */
+        * {
+            
+            box-sizing: border-box;
+        }
+        h1{
+            color: rgb(0, 0, 0);
+            font-family: "Titan One", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 30px;
+            margin-bottom: 40px;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+    
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+            margin-left: 300px;
+        }
+    
+        .profile-card {
+            background-color: #004AAD;
+            /* Darker shade of blue */
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+            color: #fff;
+            /* White text */
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            transition: all 0.3s ease;
+        }
+    
+        .profile-card:hover {
+            background-color: #1abc9c;
+            /* Change background color on hover */
+        }
+    
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+            overflow: hidden;
+        }
+    
+        .profile-pic img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    
+        .profile-details {
+            display: none;
+            /* Hide details by default */
+            margin-top: 10px;
+        }
+    
+        .profile-card:hover .profile-details {
+            display: block;
+            /* Show details on hover */
+        }
+    
+        .profile-card h2 {
+            margin-bottom: 5px;
+        }
+    
+        .profile-card p {
+            margin-bottom: 5px;
+        }
+    </style>
     
 
 </head>
 
 <body>
     <!-- -------------------------------- Navigation Bar -------------------------------- --><!-- -------------------------------- Navigation Bar -------------------------------- -->
-    <div class="nav">
-        <div class="_logo">
-            <img src="../images/20240430_181955.png" alt="" class="logo">
-            <span>M.A.Y.A.</span>
-        </div>
-    
-    
-        <<div class="search">
+    <div class="navi">
+        <span>M.A.Y.A.</span>
+        <div class="search">
             <input type="text" placeholder="Search..">
             <div class="line"></div>
             <img src="../images/icons8-search-100.png" alt="" class="icon_s">
-    </div>
-    
-    <div class="navend">
-        <div class="Buttons">
-            <a href="../index.html"><button class="b1">Home</button></a>
-            <a href="../Pages/Test.html"><button class="b2">Test</button></a>
-            <a href="../Pages/Social.html"><button class="b3">Social</button></a>
-            <a href="../Pages/Doc-Talk.html"><button class="b4">Doc-Talk</button></a>
         </div>
-        <a href="../Pages/Profile.html"><img src="../images/profile.jpg" alt="" class="profile"></a>
-    </div>
-    
+
+        <div class="Buttons">
+            <div class="home">
+                <img src="../images/Vector.png" alt="" class="b1">
+                <a href="../index.html" id="t1">Home</a>
+            </div>
+            <div class="test">
+                <img src="../images/Vector-1.png" alt="" class="b2">
+                <a href="../Pages/Test.html" id="t2">Test</a>
+            </div>
+            <div class="social">
+                <img src="../images/Vector-2.png" alt="" class="b3">
+                <a href="../Pages/Social.html" id="t3">Social</a>
+            </div>
+            <div class="doc">
+                <img src="../images/Vector-3.png" alt="" class="b4">
+                <a href="../Pages/Doc-Talk.html" id="t4">Doc-Talk</a>
+            </div>
+        </div>
+
+        <img src="../images/20240430_181955.png" alt="" class="logo">
     </div>
 
-            <!-- -------------------------------- Footer -------------------------------- -->
+    <div class="container">
+        <h1>Nearby Professional Psychiatrist</h1>
+        <div class="profile-card">
+            <div class="profile-pic">
+                <img src="https://via.placeholder.com/100/FF5733/FFFFFF?text=RS" alt="Dr. Rajesh Sharma">
+            </div>
+            <div class="profile-info">
+                <h2>Dr. Rajesh Sharma</h2>
+                <p>Specialty: Psychiatry</p>
+                <p>Experience: 10 years</p>
+                <p>Location: Nashik</p>
+                <div class="profile-details">
+                    <p>Email: rajesh.sharma@example.com</p>
+                    <p>Phone: +91 9876543210</p>
+                </div>
+            </div>
+        </div>
+        <div class="profile-card">
+            <div class="profile-pic">
+                <img src="https://via.placeholder.com/100/3498db/FFFFFF?text=PD" alt="Dr. Priya Deshmukh">
+            </div>
+            <div class="profile-info">
+                <h2>Dr. Priya Deshmukh</h2>
+                <p>Specialty: Child Psychiatry</p>
+                <p>Experience: 8 years</p>
+                <p>Location: Mumbai</p>
+                <div class="profile-details">
+                    <p>Email: priya.deshmukh@example.com</p>
+                    <p>Phone: +91 8765432109</p>
+                </div>
+            </div>
+        </div>
+        <div class="profile-card">
+            <div class="profile-pic">
+                <img src="https://via.placeholder.com/100/2ecc71/FFFFFF?text=RP" alt="Dr. Rahul Patil">
+            </div>
+            <div class="profile-info">
+                <h2>Dr. Rahul Patil</h2>
+                <p>Specialty: Geriatric Psychiatry</p>
+                <p>Experience: 15 years</p>
+                <p>Location: Pune</p>
+                <div class="profile-details">
+                    <p>Email: rahul.patil@example.com</p>
+                    <p>Phone: +91 7654321098</p>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Additional profile cards -->
+        <div class="profile-card">
+            <div class="profile-pic">
+                <img src="https://via.placeholder.com/100/1abc9c/FFFFFF?text=AK" alt="Dr. Amit Kumar">
+            </div>
+            <div class="profile-info">
+                <h2>Dr. Amit Kumar</h2>
+                <p>Specialty: Addiction Psychiatry</p>
+                <p>Experience: 8 years</p>
+                <p>Location: Nashik</p>
+                <div class="profile-details">
+                    <p>Email: amit.kumar@example.com</p>
+                    <p>Phone: +91 8765432101</p>
+                </div>
+            </div>
+        </div>
+        <div class="profile-card">
+            <div class="profile-pic">
+                <img src="https://via.placeholder.com/100/9b59b6/FFFFFF?text=MS" alt="Dr. Manisha Singh">
+            </div>
+            <div class="profile-info">
+                <h2>Dr. Manisha Singh</h2>
+                <p>Specialty: Forensic Psychiatry</p>
+                <p>Experience: 12 years</p>
+                <p>Location: Mumbai</p>
+                <div class="profile-details">
+                    <p>Email: manisha.singh@example.com</p>
+                    <p>Phone: +91 7654321090</p>
+                </div>
+            </div>
+        </div>
+        <div class="profile-card">
+            <div class="profile-pic">
+                <img src="https://via.placeholder.com/100/3498db/FFFFFF?text=SK" alt="Dr. Sneha Khanna">
+            </div>
+            <div class="profile-info">
+                <h2>Dr. Sneha Khanna</h2>
+                <p>Specialty: Child Psychiatry</p>
+                <p>Experience: 10 years</p>
+                <p>Location: Pune</p>
+                <div class="profile-details">
+                    <p>Email: sneha.khanna@example.com</p>
+                    <p>Phone: +91 9876543211</p>
+                </div>
+            </div>
+        </div>
+        <div class="profile-card">
+            <div class="profile-pic">
+                <img src="https://via.placeholder.com/100/2ecc71/FFFFFF?text=AK" alt="Dr. Ankit Kumar">
+            </div>
+            <div class="profile-info">
+                <h2>Dr. Ankit Kumar</h2>
+                <p>Specialty: Geriatric Psychiatry</p>
+                <p>Experience: 10 years</p>
+                <p>Location: Nashik</p>
+                <div class="profile-details">
+                    <p>Email: ankit.kumar@example.com</p>
+                    <p>Phone: +91 8765432102</p>
+                </div>
+            </div>
+        </div>
+        <div class="profile-card">
+            <div class="profile-pic">
+                <img src="https://via.placeholder.com/100/9b59b6/FFFFFF?text=MK" alt="Dr. Mohan Khatri">
+            </div>
+            <div class="profile-info">
+                <h2>Dr. Mohan Khatri</h2>
+                <p>Specialty: Psychiatry</p>
+                <p>Experience: 10 years</p>
+                <p>Location: Mumbai</p>
+                <div class="profile-details">
+                    <p>Email: mohan.khatri@example.com</p>
+                    <p>Phone: +91 7654321092</p>
+                </div>
+            </div>
+        </div>
+        <div class="profile-card">
+            <div class="profile-pic">
+                <img src="https://via.placeholder.com/100/1abc9c/FFFFFF?text=SK" alt="Dr. Sunita Kapoor">
+            </div>
+            <div class="profile-info">
+                <h2>Dr. Sunita Kapoor</h2>
+                <p>Specialty: Forensic Psychiatry</p>
+                <p>Experience: 8 years</p>
+                <p>Location: Pune</p>
+                <div class="profile-details">
+                    <p>Email: sunita.kapoor@example.com</p>
+                    <p>Phone: +91 9876543213</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            <!-- -------------------------------- Footer --------------------------------
             
             
             <footer class="footer">
@@ -84,7 +314,7 @@
                         </div>
                     </div>
                 </div>
-            </footer>
+            </footer> -->
 </body>
 
 </html>

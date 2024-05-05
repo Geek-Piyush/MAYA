@@ -1,126 +1,128 @@
 /* Navigation bar */
 
-.nav{
-    border-width: 4px;
+.navi{
+    border-left: 2px;
     border-style: solid;
     border-image: linear-gradient(to right, #000040, #FFFFFF, #000040) 1;
-    background-color: #004AAD;
-    position: relative;
-    top:-150px;
-    right: 70px;
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    top: 0; /* Stay at the top */
+    left: 0;
+    width: 200px; /* Set the width of the sidebar */
+    height: 100%; /* Full-height: stretch from top to bottom of the page */
+    background-color: #100077; /* Sidebar color */
+    padding: 20px 10px; /* Padding inside the sidebar */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
 }
-._logo{
-    position : relative;
-    left:80px;
-    top:135px;
-}
-._logo span{
+.navi span{
     font-family: "Titan One", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: white;
     font-size: 40px;
-    position: relative;
-    bottom: 30px;
-    right:10px;
-}
-.logo{
-    height:100px;
     
-}
-.navend{
-    display: flex;
-    justify-content: flex-end;
+    
     position: relative;
-    top: 2rem;
-    left: 2rem;
+    top: 10px;
+    left:10px;
 }
-
 .search{
     border: solid 4px black;
-    width:380px;
-    height:50px;
+    width:170px;
+    height:40px;
     border-radius: 2rem;
     background-color: white;
-    position: relative;
-    left: 380px;
-    top:30px;
 }
 .search input{
     border:none !important;
     height:30px;
     position: relative;
-    top:5px;
+    
     left: 20px;
-    width:260px;
+    width:100px;
 }
 .search input:focus {
     outline: none;
 }
 .line{
     border-left: 3px solid black;
-    height:45px;
+    height: 36px;
     position: relative;
     bottom:32px;
-    left:325px;
+    left:120px;
 }
 .icon_s{
     position: relative;
-    bottom:72px;
-    left:330px;
-    height: 36px;
-    width:36px
+    bottom:67px;
+    left:125px;
+    height: 32px;
+    width:32px
+}
+.Buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Buttons a{
+    text-decoration: none;
+    color: white;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+}
+.Buttons div img{
+    height: 25px;
 }
 
-.nav .Buttons{
-    display: flex;
-    flex-direction: row;
+
+.logo{
+    height: 200px;
+    width: 180px ;
+}
+
+#t1{
+    position: relative;
+    left:15px;
+    
+}
+#t2{
+    position: relative;
+    left:28px;
+}
+
+#t3{
+    position: relative;
+    left:17px;
+    
+}
+
+#t4{
+    position: relative;
+    left:26px;
 }
 .b1{
-    height: 30px;
-    width: 80px;
-    font-size: 15px;
+    position: relative;
+    left:10px;
 }
+
 .b2{
-    height: 30px;
-    width: 80px;
-    font-size: 15px;
+    position: relative;
+    left:15px;
+    top:2px;
 }
+
 .b3{
-    height: 30px;
-    width: 80px;
-    font-size: 15px;
+    position: relative;
+    left:10px;
+    top:2px;
 }
+
 .b4{
-    height: 30px;
-    width: 96px;
-    font-size: 15px;
-}
-.nav .Buttons button{
-    
-    border-radius: 10px;
-    margin: 8px;
-    margin-bottom: 0px;
-    padding :2px;
-    padding-left : 10px;
-    padding-right : 10px;
-    border-color:white;
-    background-color:#11009E;
-    color:white;
     position: relative;
-    right: 10px;
-    top:25px;
-}
-
-
-.nav .profile {
-    border: solid 5px #000040;
-    background-color: #000040;
-    border-radius: 3rem;
-    width: 70px;
-    height: 70px;
-    position: relative;
-    top: 8px;
+    left:15px;
 }
 /* ********************************************************************************************** */
 /* Footer */
